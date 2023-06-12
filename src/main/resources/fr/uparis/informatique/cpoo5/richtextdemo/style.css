@@ -1,0 +1,75 @@
+.red { -fx-fill: red; }
+.green { -fx-fill: rgb(87, 167, 7); }
+.green2 {-fx-fill: rgb(49, 89, 23);}
+
+
+.titre {
+    -fx-font-size: 50px;
+    -fx-font-family: "Z003";
+    
+}
+
+.labelNom_choixMode {
+    -fx-font-size: 30px;
+    -fx-font-family: "Z003";
+    
+}
+
+.solo {
+    -fx-background-color: rgb(169, 43, 43);
+    -fx-font-size: 22px;
+    -fx-font-family: "Z003";
+}
+
+.multi {
+    -fx-background-color: rgb(102, 143, 51);
+    -fx-font-size: 22px;
+    -fx-font-family: "Z003";
+
+}
+
+.spinner {
+    -fx-border-radius: 50%;
+}
+
+.time {
+    -fx-font-size: 30px;
+    -fx-font-family: "Z003";
+}
+
+.ligne {
+    -fx-font-size: 30px;
+    -fx-font-family: "Z003";
+
+}
+
+.ligne_rouge {
+    -fx-text-fill: red;
+    -fx-font-size: 30px;
+    -fx-font-family: "Z003";
+}
+
+.ligne_bleue {
+    -fx-text-fill: blue;
+    -fx-font-size: 30px;
+    -fx-font-family: "Z003";
+}
+
+.zone_ecriture {
+  -fx-font-size: 30px;
+  -fx-font-family: "Z003";
+}
+
+.stats {
+  -fx-font-size: 30px;
+  -fx-font-family: "Z003";
+}
+
+.retour{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: "Z003";
+    -fx-font-size: 40px; /* 12 */
+}
