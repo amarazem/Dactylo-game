@@ -221,7 +221,7 @@ public class RichTextDemo extends Application {
 
         VBox paramSolo = new VBox();
         paramSolo.setAlignment(Pos.TOP_CENTER);
-        paramSolo.setSpacing(300);
+        paramSolo.setSpacing(200);
         paramSolo.getChildren().addAll(topSolo, centreSolo);
         paramSolo.setPadding(new Insets(20, 0, 0, 20));
         try {
