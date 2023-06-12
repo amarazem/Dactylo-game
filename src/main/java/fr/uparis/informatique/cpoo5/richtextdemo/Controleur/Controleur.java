@@ -161,7 +161,7 @@ public abstract class Controleur {
     public double calculVitesse(){
         double res;
         try { 
-            if(this instanceof ControleurSoloNormal) {res = (nbCarUtils / ((double)(temps) / 60) / 5); System.out.println("yoo");}
+            if(this instanceof ControleurSoloNormal) {res = (nbCarUtils / ((double)(temps) / 60) / 5);}
             else res = (nbCarUtils / ((double)(tempsJeu) / 60) / 5);
             return Math.round(res*100.0)/100.0;
         } catch (Exception e) {
